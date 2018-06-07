@@ -1,6 +1,6 @@
 === External Links to New Window ===
 Contributors: etalented
-Plugin URI: http://etalented.co.uk/projects/wordpress-plugin-external-links-to-a-new-window
+Plugin URI: https://etalented.co.uk/
 Tags: links, external, seo, optimized, new window
 Requires at least: 3.2.0
 Tested up to: 4.9.5
@@ -16,8 +16,6 @@ The external link plugin for WordPress will allow site admins to automatically o
 
 This plugin was originally created by Christopher Ross (http://thisismyurl.com) and is now maintained by Etalented (http://etalented.co.uk).
 
-Updates to the plugin will be posted on the Etalented website (http://etalented.co.uk/projects/wordpress-plugin-external-links-to-a-new-window) as well as to the WordPress.org Plugin Directory (https://en-gb.wordpress.org/plugins/external-links-to-new-window/).
-
 == Installation ==
 
 To install the plugin, please upload the folder to your plugins folder and active the plugin.
@@ -31,6 +29,10 @@ None yet.
 1. Admin interface
 
 == Changelog ==
+
+= 2.0.3 =
+
+* code refactor
 
 = 2.0.2 =
 
