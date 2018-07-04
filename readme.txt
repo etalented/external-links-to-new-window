@@ -4,7 +4,7 @@ Plugin URI: https://etalented.co.uk/wordpress-plugin-external-links-to-new-windo
 Tags: links, external, seo, optimized, new window, new tab, nofollow
 Requires at least: 3.2.0
 Tested up to: 4.9.6
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 Requires PHP: 5.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
