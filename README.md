@@ -18,7 +18,7 @@ More help if you need it thanks to [Smashing Magazine](https://www.smashingmagaz
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+Please read [CONTRIBUTING.md](https://github.com/etalented/external-links-to-new-window/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
