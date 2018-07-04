@@ -1,72 +1,30 @@
-=== External Links to New Window ===
-Contributors: etalented
-Plugin URI: https://etalented.co.uk/wordpress-plugin-external-links-to-new-window/
-Tags: links, external, seo, optimized, new window
-Requires at least: 3.2.0
-Tested up to: 4.9.6
-Stable tag: 2.0.3
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# 	External Links to New Window
 
-Open all external links in your blog posts and pages automatically in a new tab or new window when clicked or tapped.
+This is a plugin for WordPress which, when enabled, will open all links in a new window or tab that are not of the same domain as the WordPress site. It works only on blog post and page content as it makes use of the WordPress [`the_content` filter](https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content) - this is a core feature of the plugin as it is designed to be as lean and least-cumbersome as possible.
 
-== Description ==
+## Running the tests
 
-This plugin will solve the problem of manually changing all your external links to open in a new window by doing it automatically for you...for all external links in all posts and pages!
+1. [Install PHPUnit](https://phpunit.de/manual/6.5/en/installation.html)
+1. [Install WP-CLI](https://wp-cli.org/)
+1. Run the command `bin/install-wp-tests.sh wordpress_test username 'password' localhost latest` from the plugin root. `wordpress_test` is the name of the MySQL database that will be created. `username` the name for the MySQL connection. `password` the password for the MySQL connection. `localhost` the host of the MySQL database.
+1. Run the command `phpunit` to run all the tests
 
-This plugin uses standard HTML and doesn't introduce any more JavaScript into your already JavaScript heavy WordPress site. It also uses very minimal styling (CSS) to display a new window icon, which is embedded and not externally linked.
+More help if you need it thanks to [Smashing Magazine](https://www.smashingmagazine.com/2017/12/automated-testing-wordpress-plugins-phpunit/).
 
-The display of the new window icon can be changed in the settings page and you can also add the `rel="nofollow"` attribute (https://en.wikipedia.org/wiki/Nofollow).
+## Built with
 
-Updates to the plugin will be posted on the Etalented website (https://etalented.co.uk/wordpress-plugin-external-links-to-new-window) as well as to the WordPress.org Plugin Directory (https://en-gb.wordpress.org/plugins/external-links-to-new-window/).
+* [PHPUnit](https://phpunit.de/)
+* [PHP Simple HTML DOM Parser](http://sourceforge.net/projects/simplehtmldom/)
 
-This plugin was originally created by Christopher Ross (http://thisismyurl.com) and is now maintained by Etalented (https://etalented.co.uk).
+## Contributing
 
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-== Installation ==
+## Authors
 
-To install the plugin, please upload the folder to your plugins folder and activate the plugin. Then go to Settings > External Links to Enable this plugin and the settings.
+* Authored by [Etalented](https://etalented.co.uk)
+* Initial work by [Christopher Ross](http://thisismyurl.com)
 
-== Frequently Asked Questions ==
+## License
 
-None yet.
-
-== Screenshots ==
-
-1. Admin interface
-
-== Changelog ==
-
-= 2.0.3 =
-
-* code refactor
-* unit testing
-* admin settings page re-design
-* new `external-link-new-window` class for external links (whilst still supporting legacy class)
-* changing new window icon to CSS encoded for better performance
-
-= 2.0.2 =
-
-* under new ownership
-
-= 2.0.0 =
- 
-* added new admin menu for easier management
-* removed footer comment
-* combined settings into single option
-* removed common file
-* added screenshot
-
-= 1.1.1 =
-
-* lowered bandwidth of icon
-* CSS now only appearing when image included
-
-= 1.1 =
-
-* added new WP menu
-
-== Upgrade Notice ==
-
-= 2.0.2 =
-Upgrade to find out the latest support information for this plugin.
+This software is licensed under the GNU GENERAL PUBLIC LICENSE - see the LICENSE.md file for details.

@@ -1,10 +1,11 @@
 === External Links to New Window ===
 Contributors: etalented
 Plugin URI: https://etalented.co.uk/wordpress-plugin-external-links-to-new-window/
-Tags: links, external, seo, optimized, new window
+Tags: links, external, seo, optimized, new window, new tab, nofollow
 Requires at least: 3.2.0
 Tested up to: 4.9.6
 Stable tag: 2.0.3
+Requires PHP: 5.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,26 +17,45 @@ This plugin will solve the problem of manually changing all your external links 
 
 This plugin uses standard HTML and doesn't introduce any more JavaScript into your already JavaScript heavy WordPress site. It also uses very minimal styling (CSS) to display a new window icon, which is embedded and not externally linked.
 
-The display of the new window icon can be changed in the settings page and you can also add the `rel="nofollow"` attribute (https://en.wikipedia.org/wiki/Nofollow).
+The display of the new window icon can be changed in the settings page and you can also add the `rel="nofollow"` attribute. [Read more about `rel="nofollow"` on Wikipedia](https://en.wikipedia.org/wiki/Nofollow).
 
-Updates to the plugin will be posted on the Etalented website (https://etalented.co.uk/wordpress-plugin-external-links-to-new-window) as well as to the WordPress.org Plugin Directory (https://en-gb.wordpress.org/plugins/external-links-to-new-window/).
+Updates to the plugin will be posted on the [Etalented website](https://etalented.co.uk/wordpress-plugin-external-links-to-new-window) as well as to the [WordPress.org Plugin Directory](https://en-gb.wordpress.org/plugins/external-links-to-new-window/).
 
-This plugin was originally created by Christopher Ross (http://thisismyurl.com) and is now maintained by Etalented (https://etalented.co.uk).
+Originally created by [Christopher Ross](http://thisismyurl.com) and now authored by [Etalented](https://etalented.co.uk).
 
 
 == Installation ==
 
-To install the plugin, please upload the folder to your plugins folder and activate the plugin. Then go to Settings > External Links to Enable this plugin and the settings.
+1. Upload the plugin files to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
+1. Activate the plugin through the 'Plugins' screen in WordPress
+1. Use the Settings->External Links screen to configure the plugin
 
 == Frequently Asked Questions ==
 
-None yet.
+= Do the external links have any CSS classes? =
+
+Yes. There are 2: `thisismyurl_external` to support sites that use the old version of the plugin; and `external-links-new-window` for new installations and for those that wish to upgrade.
+
+= Will it work for mobile? =
+
+Yes. The plugin uses HTML standards to that it works on mobile and desktop the same.
+
+= Will it open a new window or new tab? =
+
+That depends. It is down to the users settings in their browser whether a new window or new tab is opened. The default behaviour is for a new tab to open.
 
 == Screenshots ==
 
-1. Admin interface
+1. Plugin settings
+1. An example blog post with external link
 
 == Changelog ==
+
+= 2.0.4 =
+
+* code refactor
+* admin settings page re-design
+* new readme and contributing docs
 
 = 2.0.3 =
 
@@ -68,5 +88,6 @@ None yet.
 
 == Upgrade Notice ==
 
-= 2.0.2 =
-Upgrade to find out the latest support information for this plugin.
+= 2.0.4 =
+
+Upgrade to get the latest support information and features.
